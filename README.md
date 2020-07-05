@@ -1,1 +1,1 @@
-# geographiocal_trivias
+# geographical_trivias
