@@ -24,7 +24,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#">Main page</a></li>
         <li><a href="#">Add your trivia!</a></li>
-        <li><a href="#">Sign in</a></li>
+        <li><a href="login.jsp">Sign in</a></li>
       </ul>
     </div>
 
