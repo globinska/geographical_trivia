@@ -68,11 +68,12 @@ body {
     color: #d9534f;
 }
 .bs-callout-warning {
-    border-left-color: #C68BC1;
+
+    border-left-color: #f0ad4e;
 }
 .bs-callout-warning h4 {
-    color: #C68BC1;
-}
+    color: #f0ad4e;
+
 .bs-callout-info {
     border-left-color: #5bc0de;
 }
