@@ -14,7 +14,7 @@
 
 <nav class = "navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-        <a href="#" class="navbar-brand">Geographical trivias</a>
+        <a href="index.jsp" class="navbar-brand">Geographical trivias</a>
 
         <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
             <span class="glyphicon glyphicon-list"></span>
@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse navHeaderCollapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="index.jsp">Main page</a></li>
-                <li><a href="#">Add your trivia!</a></li>
+                <li><a href="new.jsp">Add your trivia!</a></li>
                 <li><a href="login.jsp">Sign in</a></li>
             </ul>
         </div>
@@ -34,7 +34,7 @@
 <div class="container">
     <div class="col-sm-6 col-md-4 col-md-offset-4">
         <form class="form-signin" method="post" action="#">
-            <h2 class="form-signin-heading">Zarejestruj się</h2>
+            <h2 class="form-signin-heading">Sign up</h2>
             <input name="inputEmail" type="email" class="form-control" placeholder="E-mail address" required autofocus />
             <input name="inputUsername" type="text" class="form-control" placeholder="Username" required autofocus />
             <input name="inputPassword" type="password" class="form-control" placeholder="Password" required />

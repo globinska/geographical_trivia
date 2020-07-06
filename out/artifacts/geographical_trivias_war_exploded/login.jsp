@@ -14,7 +14,7 @@
 
 <nav class = "navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-        <a href="#" class="navbar-brand">Geographical trivias</a>
+        <a href="index.jsp" class="navbar-brand">Geographical trivias</a>
 
         <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
             <span class="glyphicon glyphicon-list"></span>
@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse navHeaderCollapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="index.jsp">Main page</a></li>
-                <li><a href="#">Add your trivia!</a></li>
+                <li><a href="new.jsp">Add your trivia!</a></li>
                 <li><a href="login.jsp">Sign in</a></li>
             </ul>
         </div>
