@@ -15,7 +15,7 @@ public class ConnectionProvider {
         return getDataSource().getConnection();
     }
 
-    private static DataSource getDataSource() {
+    public static DataSource getDataSource() {
         if (dataSource == null){
             try {
                 Context initContext = new InitialContext();

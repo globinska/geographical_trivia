@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="commons-logging-1.2-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../JavaEla/libraries/commons-logging-1.2/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JavaEla/libraries/HikariCP-3.4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JavaEla/libraries/mysql-connector-java-8.0.20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JavaEla/libraries/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JavaEla/libraries/slf4j-jcl-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JavaEla/libraries/slf4j-simple-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JavaEla/libraries/taglibs-standard-impl-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JavaEla/spring/spring-jdbc/spring-beans-5.0.8.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JavaEla/spring/spring-jdbc/spring-core-5.0.8.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JavaEla/spring/spring-jdbc/spring-jcl-5.0.8.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JavaEla/spring/spring-jdbc/spring-jdbc-5.0.8.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../JavaEla/spring/spring-jdbc/spring-tx-5.0.8.RELEASE.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaEla/libraries/commons-logging-1.2" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../JavaEla/libraries/commons-logging-1.2/commons-logging-1.2-javadoc.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../JavaEla/libraries/commons-logging-1.2/apidocs" />
+    </JAVADOC>
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../JavaEla/libraries/commons-logging-1.2" recursive="false" />
+  </library>
+</component>
