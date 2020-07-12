@@ -29,4 +29,9 @@ public class VoteDAOimp implements VoteDAO {
     public boolean delete(Long key) {
         return false;
     }
+
+    @Override
+    public List<Vote> getAll() {
+        return null;
+    }
 }

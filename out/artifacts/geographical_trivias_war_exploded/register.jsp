@@ -14,7 +14,7 @@
 
 <nav class = "navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-        <a href="index.jsp" class="navbar-brand">Geographical trivias</a>
+        <a href="index.jsp" class="navbar-brand">Geographical trivia</a>
 
         <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
             <span class="glyphicon glyphicon-list"></span>
@@ -33,7 +33,7 @@
 
 <div class="container">
     <div class="col-sm-6 col-md-4 col-md-offset-4">
-        <form class="form-signin" method="post" action="#">
+        <form class="form-signin" method="post" action="register">
             <h2 class="form-signin-heading">Sign up</h2>
             <input name="inputEmail" type="email" class="form-control" placeholder="E-mail address" required autofocus />
             <input name="inputUsername" type="text" class="form-control" placeholder="Username" required autofocus />
@@ -46,7 +46,7 @@
 
 <footer class="footer">
     <div class="container">
-        <p class="navbar-text">Geographiocal Trivias developed by <a href="https://www.linkedin.com/in/elbgob/">Elżbieta Głobińska</a></p>
+        <p class="navbar-text">Geographiocal Trivia developed by <a href="https://www.linkedin.com/in/elbgob/">Elżbieta Głobińska</a></p>
     </div>
 </footer>
 
