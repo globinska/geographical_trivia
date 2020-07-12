@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -23,8 +24,16 @@
         <div class="collapse navbar-collapse navHeaderCollapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="index.jsp">Main page</a></li>
-                <li><a href="#">Add your trivia!</a></li>
-                <li><a href="login.jsp">Sign in</a></li>
+                <li><a href="new.jsp">Add your trivia!</a></li>
+<%--                <li><a href="login.jsp">Sign in</a></li>--%>
+                <c:choose>
+                    <c:when test="${not empty sessionScope.user}">
+                        <li><a href="login.jsp">Log out</a></li>
+                    </c:when>
+                    <c:otherwise>
+                        <li><a href="login.jsp">Sign in</a></li>
+                    </c:otherwise>
+                </c:choose>
             </ul>
         </div>
 
